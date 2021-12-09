@@ -8,7 +8,7 @@ document.getElementById('interval-start').addEventListener("click", function () 
             let div = document.getElementById('interval-div');
             div.innerText += a.toString() + ', ';
             timeoutFunction()
-        }, 1000);
+        }, 60000);
     }
     timeoutFunction();
 
